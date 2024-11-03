@@ -1,0 +1,29 @@
+2024/11/03 21:17:46 RequestID: 5825934 IP: [::1]:3292 Method: GET URL: /news/id?id=3&requset_id=5825934 Duration: 1.1577ms
+2024/11/03 21:30:57 RequestID: 9521006 IP: [::1]:3266 Method: GET URL: /news/id?id=3&requset_id=9521006 Duration: 1.2758ms
+2024/11/03 21:34:35 RequestID: 413379 IP: [::1]:7293 Method: GET URL: /news/id?id=3&requset_id=413379 Duration: 1.2026ms
+2024/11/03 21:34:47 RequestID: 7974571 IP: [::1]:7293 Method: GET URL: /news/id?id=323&requset_id=7974571 Duration: 711.8µs
+2024/11/03 21:37:32 RequestID: 4865048 IP: [::1]:10717 Method: GET URL: /news/id?id=323&requset_id=4865048 Duration: 1.0385ms
+2024/11/03 21:38:25 RequestID:  IP: [::1]:11362 Method: GET URL: /news/id?id=311 Duration: 608.9µs
+2024/11/03 21:41:37 RequestID:  IP: [::1]:14443 Method: GET URL: /news/id?id=311 Duration: 1.1802ms
+2024/11/03 21:42:53 RequestID:  IP: [::1]:1854 Method: GET URL: /news/id?id=311 Duration: 505.9µs
+2024/11/03 21:43:22 RequestID:  IP: [::1]:1854 Method: GET URL: /news/id?id=31 Duration: 987.9µs
+2024/11/03 21:43:24 RequestID:  IP: [::1]:1854 Method: GET URL: /news/id?id=1 Duration: 389.8µs
+2024/11/03 21:43:27 RequestID:  IP: [::1]:1854 Method: GET URL: /news/id?id=3 Duration: 88.1µs
+2024/11/03 21:43:31 RequestID:  IP: [::1]:1854 Method: GET URL: /news/id?id=3 Duration: 752.6µs
+2024/11/03 21:43:39 RequestID:  IP: [::1]:1854 Method: GET URL: /news/id?id=32 Duration: 407.7µs
+2024/11/03 21:43:41 RequestID:  IP: [::1]:1854 Method: GET URL: /news/id?id=322 Duration: 303.3µs
+2024/11/03 21:44:22 RequestID:  IP: [::1]:3091 Method: GET URL: /news/id?id=322 Duration: 1.9986ms
+2024/11/03 21:44:23 RequestID:  IP: [::1]:3091 Method: GET URL: /news/id?id=322 Duration: 772.9µs
+2024/11/03 21:44:42 RequestID:  IP: [::1]:3382 Method: GET URL: /news/id?id=322 Duration: 505µs
+2024/11/03 21:44:52 RequestID:  IP: [::1]:3525 Method: GET URL: /news/id?id=3 Duration: 1.6228ms
+2024/11/03 21:45:28 RequestID:  IP: [::1]:3525 Method: GET URL: /news/id?id=3 Duration: 260.2µs
+2024/11/03 21:45:59 RequestID:  IP: [::1]:4492 Method: GET URL: /news/id?id=3 Duration: 2.1316ms
+2024/11/03 21:46:00 RequestID:  IP: [::1]:4492 Method: GET URL: /news/id?id=3 Duration: 204.7µs
+2024/11/03 21:46:34 RequestID:  IP: [::1]:5050 Method: GET URL: /news/id?id=3 Duration: 1.0013ms
+2024/11/03 21:47:24 RequestID:  IP: [::1]:6368 Method: GET URL: /news/id?id=3 Duration: 1.0278ms
+2024/11/03 21:47:36 RequestID: 1030230 IP: [::1]:6620 Method: GET URL: /news/id?id=323&requset_id=1030230 Duration: 0s
+2024/11/03 21:47:51 RequestID: 2048575 IP: [::1]:6620 Method: GET URL: /news/id?id=3&requset_id=2048575 Duration: 534.4µs
+2024/11/03 21:48:44 RequestID: 2658702 IP: [::1]:8006 Method: GET URL: /news/id?id=3&requset_id=2658702 Duration: 1.7577ms
+2024/11/03 21:48:46 RequestID: 3150394 IP: [::1]:8006 Method: GET URL: /news/id?id=3333&requset_id=3150394 Duration: 0s
+2024/11/03 21:48:57 RequestID: 2579757 IP: [::1]:8006 Method: GET URL: /news/id?id=3&requset_id=2579757 Duration: 0s
+2024/11/03 21:49:02 RequestID: 8337438 IP: [::1]:8006 Method: GET URL: /news/id?id=1&requset_id=8337438 Duration: 0s

@@ -1,0 +1,14 @@
+2024/11/03 21:17:46 Десериализация и отправка по каналу [{1 3 0 test comment йцуке 1730479506 false [{2 3 1 test comment 2 2321312312 false []}]} {4 3 0 second test for PostID 3 2321312312 false []}]
+2024/11/03 21:17:46 Десериализация и отправка по каналу {3 Как мы внедрили CockroachDB на DBaaS в компанию классических СУБД Привет! Меня зовут Полина Кудрявцева, я инженер DBA в Авито. В этой статье я расскажу о том, как мы внедрили CockroachDB на DBaaS в компанию классических СУБД, а также опишу его плюсы, минусы и особенности работы. Читать далее 1730354425 https://habr.com/ru/companies/avito/articles/854732/?utm_campaign=854732&utm_source=habrahabr&utm_medium=rss []}
+2024/11/03 21:17:46 [{1 3 0 test comment йцуке 1730479506 false [{2 3 1 test comment 2 2321312312 false []}]} {4 3 0 second test for PostID 3 2321312312 false []}]
+2024/11/03 21:30:57 RequestID: 9521006 IP: [::1]:3264 Method: GET URL: /news/id?id=3 Duration: 13.7933ms
+2024/11/03 21:34:35 RequestID: 413379 IP: [::1]:7291 Method: GET URL: /news/id?id=3 Duration: 12.8924ms
+2024/11/03 21:34:47 RequestID: 7974571 IP: [::1]:7291 Method: GET URL: /news/id?id=323 Duration: 1.5551ms
+2024/11/03 21:37:32 RequestID: 4865048 IP: [::1]:10715 Method: GET URL: /news/id?id=323 Duration: 13.812ms
+2024/11/03 21:47:36 RequestID: 1030230 IP: [::1]:6618 Method: GET URL: /news/id?id=323 Duration: 16.0006ms
+2024/11/03 21:47:51 [{1 3 0 test comment йцуке 1730479506 false [{2 3 1 test comment 2 2321312312 false []}]} {4 3 0 second test for PostID 3 2321312312 false []}]
+2024/11/03 21:47:51 RequestID: 2048575 IP: [::1]:6618 Method: GET URL: /news/id?id=3 Duration: 1.4848ms
+2024/11/03 21:48:44 RequestID: 2658702 IP: [::1]:8004 Method: GET URL: /news/id?id=3 Duration: 17.0628ms
+2024/11/03 21:48:46 RequestID: 3150394 IP: [::1]:8004 Method: GET URL: /news/id?id=3333 Duration: 542.9µs
+2024/11/03 21:48:57 RequestID: 2579757 IP: [::1]:8004 Method: GET URL: /news/id?id=3 Duration: 1.4192ms
+2024/11/03 21:49:02 RequestID: 8337438 IP: [::1]:8004 Method: GET URL: /news/id?id=1 Duration: 947.4µs

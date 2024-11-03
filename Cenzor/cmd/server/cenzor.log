@@ -1,0 +1,9 @@
+2024/11/03 20:27:56 Received comment for censorship: final New test comments
+2024/11/03 20:27:56 Comment is clean.
+2024/11/03 20:27:56 RequestID: 1329078 IP: [::1]:11825 Method: POST URL: /cenzor?requset_id=1329078 Duration: 539.8µs
+2024/11/03 20:28:35 Received comment for censorship: йцуке comment 3qs
+2024/11/03 20:28:35 Comment is clean.
+2024/11/03 20:28:35 RequestID: 5998595 IP: [::1]:11825 Method: POST URL: /cenzor?requset_id=5998595 Duration: 0s
+2024/11/03 20:29:04 Received comment for censorship: йцукен comment 3qs
+2024/11/03 20:29:04 Comment is censored.
+2024/11/03 20:29:04 RequestID: 4738821 IP: [::1]:11825 Method: POST URL: /cenzor?requset_id=4738821 Duration: 0s

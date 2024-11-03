@@ -1,0 +1,82 @@
+# version: '3.8'
+
+# services:
+#   apigateway:
+#     build:
+#       context: ./APIGateway
+#       dockerfile: Dockerfile
+#     ports:
+#       - '8080:8080'
+#     command: ['./server']
+
+#   gonews:
+#     build:
+#       context: ./Gonews
+#       dockerfile: Dockerfile
+#     ports:
+#       - '8081:8081'
+#     command: ['./server']
+#     env_file:
+#       - ./Gonews/cmd/server/.env
+#     depends_on:
+#       gonews-db:
+#         condition: service_healthy
+
+#   comments:
+#     build:
+#       context: ./Comments
+#       dockerfile: Dockerfile
+#     ports:
+#       - '8082:8082'
+#     command: ['./server']
+#     env_file:
+#       - ./Comments/cmd/server/.env
+#     depends_on:
+#       comments-db:
+#         condition: service_healthy
+
+#   cenzor:
+#     build:
+#       context: ./Cenzor
+#       dockerfile: Dockerfile
+#     ports:
+#       - '8083:8083'
+#     command: ['./server']
+
+#   comments-db:
+#     image: postgres:15
+#     environment:
+#       POSTGRES_USER: postgres
+#       POSTGRES_PASSWORD: password
+#       POSTGRES_DB: comments
+#     volumes:
+#       - comments_data:/var/lib/postgresql/data
+#       - ./Comments/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+#     ports:
+#       - '5435:5432' # Мэппинг на другой порт для избежания конфликта с gonews-db
+#     healthcheck:
+#       test: ['CMD', 'pg_isready', '-U', 'postgres']
+#       interval: 10s
+#       timeout: 5s
+#       retries: 5
+
+#   gonews-db:
+#     image: postgres:15
+#     environment:
+#       POSTGRES_USER: postgres
+#       POSTGRES_PASSWORD: password
+#       POSTGRES_DB: gonews
+#     volumes:
+#       - gonews_data:/var/lib/postgresql/data
+#       - ./Gonews/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+#     ports:
+#       - '5433:5432' # Можно удалить этот мэппинг, если PostgreSQL используется только внутри Docker
+#     healthcheck:
+#       test: ['CMD', 'pg_isready', '-U', 'postgres']
+#       interval: 10s
+#       timeout: 5s
+#       retries: 5
+
+# volumes:
+#   gonews_data:
+#   comments_data:
